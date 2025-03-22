@@ -1,7 +1,5 @@
 # AutoSetDNS by TheBrightMountain
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-
 🔗 https://github.com/TheBrightMountain/AutoSetDNS
 
 ---
