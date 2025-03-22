@@ -89,6 +89,12 @@ Invoke-PS2EXE .\Uninstall.ps1 .\Uninstall.exe
 | **YogaDNS**        | ✅ Yes              | ❌ No       | ⚠️ Mid      | GUI-based, more complex |
 | **Acrylic DNS Proxy** | ❌ No            | ✅ Yes      | ⚠️ Complex  | DNS caching/filtering |
 
+| Test             | 1.1.1.1 DNS Only        | 1.1.1.1 via WARP DNS     | Full WARP              |
+|------------------|-------------------------|--------------------------|------------------------|
+| DNS Lookup Time  | ~10–20 ms               | ~15–25 ms                | ~15–30 ms              |
+| Web Page Load    | ~100–300 ms TTFB        | ~100–320 ms              | ~110–350 ms            |
+| Latency (Ping)   | Native ISP latency      | +1–3 ms                  | +5–20 ms               |
+
 ---
 
 ## 🛠️ How to Install
@@ -111,6 +117,6 @@ Invoke-PS2EXE .\Uninstall.ps1 .\Uninstall.exe
 
 ## ❌ How to Uninstall
 
-- Simply run `Uninstall.exe` to remove the AutoSetDNS task from Task Scheduler.
+- Simply run `Uninstall.exe`  as **Administrator**.
 
 ---
