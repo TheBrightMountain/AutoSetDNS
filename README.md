@@ -16,7 +16,7 @@
 
 ---
 
-## ⚠️ Caution: False Positive Detected
+## ⚠️ Attention: False Positive Detected
 
 Some antivirus engines like VirusTotal may flag the `AutoSetDNS.exe`, `Install.exe`, or `Uninstall.exe` files as potentially dangerous.  
 These alerts are **false positives**.
