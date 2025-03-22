@@ -97,6 +97,19 @@ Invoke-PS2EXE .\Uninstall.ps1 .\Uninstall.exe
 
 ---
 
+## ⬇️ How to Dowload
+
+## ✅ Option 1: Download as ZIP
+
+1. Go to the project’s GitHub page.
+2. Click the green **Code** button.
+3. Select **Download ZIP**.
+4. Extract the ZIP file to your desired location.
+
+## 💻 Option 2: Clone with Git
+
+---
+
 ## 🛠️ How to Install
 
 1. *(Optional)* Edit `AutoSetDNS.config.json` to set your preferred DNS servers and exclusions.
