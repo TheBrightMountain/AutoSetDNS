@@ -16,7 +16,7 @@
 
 ---
 
-## ⚠️ Caution: False Positive Detected
+## ⚠️ Attention: False Positive Detected
 
 Some antivirus engines like VirusTotal may flag the `AutoSetDNS.exe`, `Install.exe`, or `Uninstall.exe` files as potentially dangerous.  
 These alerts are **false positives**.
@@ -89,6 +89,25 @@ Invoke-PS2EXE .\Uninstall.ps1 .\Uninstall.exe
 | **YogaDNS**        | ✅ Yes              | ❌ No       | ⚠️ Mid      | GUI-based, more complex |
 | **Acrylic DNS Proxy** | ❌ No            | ✅ Yes      | ⚠️ Complex  | DNS caching/filtering |
 
+| Test             | 1.1.1.1 DNS Only        | 1.1.1.1 via WARP DNS     | Full WARP              |
+|------------------|-------------------------|--------------------------|------------------------|
+| DNS Lookup Time  | ~10–20 ms               | ~15–25 ms                | ~15–30 ms              |
+| Web Page Load    | ~100–300 ms TTFB        | ~100–320 ms              | ~110–350 ms            |
+| Latency (Ping)   | Native ISP latency      | +1–3 ms                  | +5–20 ms               |
+
+---
+
+## ⬇️ How to Dowload
+
+## ✅ Option 1: Download as ZIP
+
+1. Go to the project’s GitHub page.
+2. Click the green **Code** button.
+3. Select **Download ZIP**.
+4. Extract the ZIP file to your desired location.
+
+## 💻 Option 2: Clone with Git
+
 ---
 
 ## 🛠️ How to Install
@@ -111,6 +130,6 @@ Invoke-PS2EXE .\Uninstall.ps1 .\Uninstall.exe
 
 ## ❌ How to Uninstall
 
-- Simply run `Uninstall.exe` to remove the AutoSetDNS task from Task Scheduler.
+- Simply run `Uninstall.exe`  as **Administrator**.
 
 ---
