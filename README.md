@@ -116,15 +116,3 @@ Invoke-PS2EXE .\Uninstall.ps1 .\Uninstall.exe
 - Simply run `Uninstall.exe` to remove the AutoSetDNS task from Task Scheduler.
 
 ---
-
-## 📂 Repository Structure
-
-```
-📁 AutoSetDNS/
-├── AutoSetDNS.config.json     # Your DNS settings and exclusions
-├── AutoSetDNS.ps1             # Core script that sets DNS
-├── Install.ps1                # Script to register the scheduled task
-├── Uninstall.ps1              # Script to remove the task
-├── *.exe                      # Optional compiled versions of the above
-└── README.md                  # This file
-```
