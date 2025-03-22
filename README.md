@@ -123,8 +123,7 @@ Invoke-PS2EXE .\Uninstall.ps1 .\Uninstall.exe
 1. Edit `AutoSetDNS.config.json`:
    - Set your preferred DNS servers
    - Add any network names or keywords to exclude
-2. Run `Uninstall.exe` to remove the current task.
-3. Run `Install.exe` again to reapply with new settings.
+2. Disconnect and reconnect your internet to trigger DNS updates.
 
 ---
 
