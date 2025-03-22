@@ -14,8 +14,6 @@ $basePath = if ($PSScriptRoot) { $PSScriptRoot } else { [System.IO.Path]::GetDir
 $logPath = Join-Path $basePath "AutoSetDNS.log"
 $timestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
 
-# Remove any old temp logs
-Remove-Item "$env:TEMP\AutoSetDNS-Installer.log" -Force -ErrorAction SilentlyContinue
 "[$timestamp] [Installer] Starting install..." | Add-Content -Path $logPath -Encoding UTF8
 
 try {
